@@ -61,10 +61,10 @@ const Wrapper = styled.div`
   background-color: ${COLORS.transparentGray15};
   box-shadow: inset 0px 2px 4px ${COLORS.transparentGray35};
   padding: var(--padding);
-  /** Time off border-radius when progress is near 100% */
 `;
 
 const BarWrapper = styled.div`
+  /** Trim border-radius when progress is near 100% */
   overflow: hidden;
   border-radius: 4px;
 `;
